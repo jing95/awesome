@@ -14,7 +14,7 @@ $.ajax({
 	
 	success: function(data){
 		parent.innerHTML="";
-		
+	//哈哈 传成功了	
 		if(data){
 		  if(data.code==0){
 			  //自定义操作
